@@ -10,7 +10,7 @@ public class printRangePrime {
             }
         }
         return true;
-    }
+    } //for range
     public static void printRange(int n){
 
         for(int i =2; i <=n; i++){
