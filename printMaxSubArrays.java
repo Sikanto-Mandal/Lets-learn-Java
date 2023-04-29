@@ -1,14 +1,14 @@
 import java.util.*;
 public class printMaxSubArrays {
     public static void maxSumSubArrays(int arr[]){
-        int currSum =0;
+      //  int currSum =0;
         int maxSum = Integer.MIN_VALUE;
         for(int i=0; i<arr.length; i++){
-            int start =i;
+            // int start =i;
             for(int j =i; j<arr.length; j++){
-                int end =j;
-                currSum =0;
-                for(int k =start; k <= end; k++){
+                // int end =j;
+               int currSum =0;
+                for(int k =i; k <= j; k++){
                     currSum += arr[k];
                 }
                 System.out.print(currSum + " ");
