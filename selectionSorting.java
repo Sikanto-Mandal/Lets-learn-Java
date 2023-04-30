@@ -7,6 +7,7 @@ public class selectionSorting {
                     minPos=j;
                 }
             }
+            
             //swap
             int temp =arr[minPos];
             arr[minPos]= arr[i];
