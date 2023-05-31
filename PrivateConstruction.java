@@ -1,6 +1,7 @@
 public class PrivateConstruction {
     static class Vehicle{
-        private Vehicle(){
+    
+            private Vehicle(){
             System.out.println("Vehicle construction is called...");
         }
     }
